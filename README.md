@@ -1,6 +1,6 @@
 # Zabaglione
 
-レトロPCのエミュレーター開発・Web移植を中心に、昔のコンピューターを今の環境で動かし、プログラムを書いて楽しむためのソフトウェアを制作しています。Unity向けの開発ツールやUIフレームワークも公開しています。
+レトロPCのエミュレーター開発・Web移植を中心に、昔のコンピューターを今の環境で動かし、プログラムを書いて楽しむためのソフトウェアを制作しています。Unity向けの開発ツールやLooking Glass向けの非公式SDKも公開しています。
 
 ## レトロPCエミュレーター
 
@@ -20,7 +20,7 @@ ROMなどの必要データ、対応範囲、動作確認状況は各プロジ�
 | プロジェクト | 概要 |
 | --- | --- |
 | [PLATEAU Area Downloader](https://github.com/zabaglione/plateau-area-downloader) | 施設名や地図から範囲を選び、CityGMLと参照データを取得するUnity Editor用UPMパッケージ。取得データを公式PLATEAU SDK for Unityでインポートできます。 |
-| [ZabaUIFramework](https://github.com/zabaglione/ZabaUIFramework) | Unity UGUI向けUIフレームワーク。MVVM、DOTween、テーマシステムを組み合わせたUI構築を支援します。 |
+| [ViewWeave](https://github.com/zabaglione/ViewWeave) | Looking Glass向けの非公式Unity SDK。URP／HDRPシーンから多視点Quiltを生成し、プレビュー・キャプチャー・ディスプレイ出力を支援します。実験版として公開中。実機出力には公式Looking Glass Bridgeが必要です。 |
 
 ## 関連プロジェクト
 
